@@ -91,7 +91,6 @@ plt.xlabel('Profit')
 plt.ylabel('Avg Stock Price')
 plt.legend()
 plt.grid(True)
-plt.show()
 plt.savefig('lin_reg.png')
 
 # polynomial regression
@@ -106,5 +105,4 @@ plt.plot(X, poly_reg.predict(poly.fit_transform(X)), color = 'red')
 plt.title('Polynomial Regression for Profit and Average Stock Price')
 plt.xlabel('Profit')
 plt.xlabel('Avg Stock Price')
-plt.show()
 plt.savefig('quad_reg.png')
