@@ -6,7 +6,11 @@ First, scraper.py downloads, formats the table for Marvel movie profit on Wikipe
 
 ## Analysis
 The point of the project was to better learn some Python modules. Disney is a huge company. Defining profit as only box office minus budget is not the best. There are so many reasons this analysis is oversimplistic and urealistic. I did not expect strong correlation between the variables. Indeed, the correlation is exceedingly low (correlation coefficient is 0.1390601). 
+
 ![Linear Regression](lin_reg.png)
+
 And the quadradic model is completely pointless. 
+
 ![Quadratic Regression](quad_reg.png)
+
 But, I gained some great experience!
